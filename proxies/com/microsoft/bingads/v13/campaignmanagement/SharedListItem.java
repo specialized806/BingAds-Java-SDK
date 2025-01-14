@@ -35,7 +35,8 @@ import jakarta.xml.bind.annotation.XmlType;
 })
 @XmlSeeAlso({
     NegativeKeyword.class,
-    NegativeSite.class
+    NegativeSite.class,
+    BrandItem.class
 })
 public class SharedListItem {
 
@@ -43,6 +44,10 @@ public class SharedListItem {
     protected ArrayOfKeyValuePairOfstringstring forwardCompatibilityMap;
     @XmlElement(name = "Type", nillable = true)
     protected String type;
+
+    public SharedListItem() {
+        this.type = "SharedListItem";
+    }
 
     /**
      * Gets the value of the forwardCompatibilityMap property.
@@ -89,7 +94,7 @@ public class SharedListItem {
      *     
      */
     public void setType(String value) {
-        this.type = value;
+
     }
 
 }

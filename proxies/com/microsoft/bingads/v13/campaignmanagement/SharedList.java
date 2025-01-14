@@ -33,11 +33,16 @@ import jakarta.xml.bind.annotation.XmlType;
 })
 @XmlSeeAlso({
     NegativeKeywordList.class,
-    PlacementExclusionList.class
+    PlacementExclusionList.class,
+    AccountNegativeKeywordList.class,
+    BrandList.class
 })
 public class SharedList
     extends SharedEntity
 {
+    public SharedList() {
+      this.type = "SharedList";
+    }
 
     @XmlElement(name = "ItemCount", nillable = true)
     protected Integer itemCount;

@@ -55,6 +55,10 @@ public class SharedEntity {
     @XmlElement(name = "Type", nillable = true)
     protected String type;
 
+    public SharedEntity() {
+        this.type = "SharedEntity";
+    }
+
     /**
      * Gets the value of the associationCount property.
      * 
@@ -172,7 +176,7 @@ public class SharedEntity {
      *     
      */
     public void setType(String value) {
-        this.type = value;
+
     }
 
 }

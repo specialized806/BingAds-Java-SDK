@@ -59,7 +59,8 @@ import jakarta.xml.bind.annotation.XmlType;
     FilterLinkAdExtension.class,
     FlyerAdExtension.class,
     VideoAdExtension.class,
-    DisclaimerAdExtension.class
+    DisclaimerAdExtension.class,
+    LogoAdExtension.class
 })
 public class AdExtension {
 
@@ -76,6 +77,10 @@ public class AdExtension {
     protected AdExtensionStatus status;
     @XmlElement(name = "Type", nillable = true)
     protected String type;
+
+    public AdExtension() {
+        this.type = "AdExtension";
+    }
     @XmlElement(name = "Version", nillable = true)
     protected Integer version;
 
@@ -220,7 +225,7 @@ public class AdExtension {
      *     
      */
     public void setType(String value) {
-        this.type = value;
+
     }
 
     /**

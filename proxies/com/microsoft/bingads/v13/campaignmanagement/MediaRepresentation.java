@@ -44,6 +44,10 @@ public class MediaRepresentation {
     protected String name;
     @XmlElement(name = "Type", nillable = true)
     protected String type;
+
+    public MediaRepresentation() {
+        this.type = "MediaRepresentation";
+    }
     @XmlElement(name = "Url", nillable = true)
     protected String url;
 
@@ -92,7 +96,7 @@ public class MediaRepresentation {
      *     
      */
     public void setType(String value) {
-        this.type = value;
+
     }
 
     /**

@@ -25,7 +25,9 @@ public enum CampaignCriterionType {
     PRODUCT_AUDIENCE("ProductAudience"),
     SIMILAR_REMARKETING_LIST("SimilarRemarketingList"),
     STORE("Store"),
-    COMBINED_LIST("CombinedList");
+    COMBINED_LIST("CombinedList"),
+    CUSTOMER_LIST("CustomerList"),
+    IMPRESSION_BASED_REMARKETING_LIST("ImpressionBasedRemarketingList");
         
     private final String value;
 

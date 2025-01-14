@@ -14,12 +14,7 @@
         <dependency>
             <groupId>com.microsoft.bingads</groupId>
             <artifactId>microsoft.bingads</artifactId>
-            <version>13.0.17</version>
-        </dependency>
-        <dependency>
-            <groupId>org.glassfish.metro</groupId>
-            <artifactId>wssx-impl</artifactId>
-            <version>4.0.2</version>
+            <version>13.0.20.2</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -30,11 +25,6 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.12.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sun.xml.ws</groupId>
-            <artifactId>jaxws-rt</artifactId>
-            <version>4.0.1</version>
         </dependency>
         <dependency>
             <groupId>com.sun.xml.stream.buffer</groupId>

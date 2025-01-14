@@ -37,11 +37,14 @@ import jakarta.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 public class AudienceCriterion
     extends Criterion
 {
+    public AudienceCriterion() {
+      this.type = "AudienceCriterion";
+    }
 
     @XmlElement(name = "AudienceId", nillable = true)
     protected Long audienceId;
     @XmlElement(name = "AudienceType", type = String.class, nillable = true)
-    @XmlJavaTypeAdapter(Adapter12 .class)
+    @XmlJavaTypeAdapter(Adapter15 .class)
     protected Collection<AudienceType> audienceType;
 
     /**
