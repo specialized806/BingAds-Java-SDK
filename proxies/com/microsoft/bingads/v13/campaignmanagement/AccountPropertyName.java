@@ -28,6 +28,9 @@ import jakarta.xml.bind.annotation.XmlType;
  *     <enumeration value="BusinessAttributes"/>
  *     <enumeration value="EnableMMAUnderDSAAdgroups"/>
  *     <enumeration value="OptOutFromMCM"/>
+ *     <enumeration value="NetflixTCAccepted"/>
+ *     <enumeration value="BlockedContentSegments"/>
+ *     <enumeration value="AssetAIEnhancementOptout"/>
  *   </restriction>
  * </simpleType>
  * }</pre>
@@ -66,7 +69,13 @@ public enum AccountPropertyName {
     @XmlEnumValue("EnableMMAUnderDSAAdgroups")
     ENABLE_MMA_UNDER_DSA_ADGROUPS("EnableMMAUnderDSAAdgroups"),
     @XmlEnumValue("OptOutFromMCM")
-    OPT_OUT_FROM_MCM("OptOutFromMCM");
+    OPT_OUT_FROM_MCM("OptOutFromMCM"),
+    @XmlEnumValue("NetflixTCAccepted")
+    NETFLIX_TC_ACCEPTED("NetflixTCAccepted"),
+    @XmlEnumValue("BlockedContentSegments")
+    BLOCKED_CONTENT_SEGMENTS("BlockedContentSegments"),
+    @XmlEnumValue("AssetAIEnhancementOptout")
+    ASSET_AI_ENHANCEMENT_OPTOUT("AssetAIEnhancementOptout");
     private final String value;
 
     AccountPropertyName(String v) {

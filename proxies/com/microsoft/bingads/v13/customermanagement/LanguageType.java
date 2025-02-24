@@ -31,6 +31,24 @@ import jakarta.xml.bind.annotation.XmlType;
  *     <enumeration value="Russian"/>
  *     <enumeration value="TraditionalChinese"/>
  *     <enumeration value="SimplifiedChinese"/>
+ *     <enumeration value="Thai"/>
+ *     <enumeration value="Turkish"/>
+ *     <enumeration value="Filipino"/>
+ *     <enumeration value="Indonesian"/>
+ *     <enumeration value="Polish"/>
+ *     <enumeration value="Vietnamese"/>
+ *     <enumeration value="Malay"/>
+ *     <enumeration value="Ukrainian"/>
+ *     <enumeration value="Czech"/>
+ *     <enumeration value="Romanian"/>
+ *     <enumeration value="Greek"/>
+ *     <enumeration value="Hungarian"/>
+ *     <enumeration value="Hindi"/>
+ *     <enumeration value="Bulgarian"/>
+ *     <enumeration value="Lithuanian"/>
+ *     <enumeration value="Croatian"/>
+ *     <enumeration value="Latvian"/>
+ *     <enumeration value="Slovenian"/>
  *   </restriction>
  * </simpleType>
  * }</pre>
@@ -75,7 +93,43 @@ public enum LanguageType {
     @XmlEnumValue("TraditionalChinese")
     TRADITIONAL_CHINESE("TraditionalChinese"),
     @XmlEnumValue("SimplifiedChinese")
-    SIMPLIFIED_CHINESE("SimplifiedChinese");
+    SIMPLIFIED_CHINESE("SimplifiedChinese"),
+    @XmlEnumValue("Thai")
+    THAI("Thai"),
+    @XmlEnumValue("Turkish")
+    TURKISH("Turkish"),
+    @XmlEnumValue("Filipino")
+    FILIPINO("Filipino"),
+    @XmlEnumValue("Indonesian")
+    INDONESIAN("Indonesian"),
+    @XmlEnumValue("Polish")
+    POLISH("Polish"),
+    @XmlEnumValue("Vietnamese")
+    VIETNAMESE("Vietnamese"),
+    @XmlEnumValue("Malay")
+    MALAY("Malay"),
+    @XmlEnumValue("Ukrainian")
+    UKRAINIAN("Ukrainian"),
+    @XmlEnumValue("Czech")
+    CZECH("Czech"),
+    @XmlEnumValue("Romanian")
+    ROMANIAN("Romanian"),
+    @XmlEnumValue("Greek")
+    GREEK("Greek"),
+    @XmlEnumValue("Hungarian")
+    HUNGARIAN("Hungarian"),
+    @XmlEnumValue("Hindi")
+    HINDI("Hindi"),
+    @XmlEnumValue("Bulgarian")
+    BULGARIAN("Bulgarian"),
+    @XmlEnumValue("Lithuanian")
+    LITHUANIAN("Lithuanian"),
+    @XmlEnumValue("Croatian")
+    CROATIAN("Croatian"),
+    @XmlEnumValue("Latvian")
+    LATVIAN("Latvian"),
+    @XmlEnumValue("Slovenian")
+    SLOVENIAN("Slovenian");
     private final String value;
 
     LanguageType(String v) {

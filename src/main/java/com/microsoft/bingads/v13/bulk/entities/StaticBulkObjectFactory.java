@@ -386,6 +386,36 @@ public class StaticBulkObjectFactory implements BulkObjectFactory {
                 return new BulkCampaignNegativeCustomerListAssociation();
             }
         }));
+        m.put(StringTable.ImpressionBasedRemarketingList, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkImpressionBasedRemarketingList();
+            }
+        }));
+        m.put(StringTable.AdGroupImpressionBasedRemarketingListAssociation, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkAdGroupImpressionBasedRemarketingListAssociation();
+            }
+        }));
+        m.put(StringTable.AdGroupNegativeImpressionBasedRemarketingListAssociation, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkAdGroupNegativeImpressionBasedRemarketingListAssociation();
+            }
+        }));
+        m.put(StringTable.CampaignImpressionBasedRemarketingListAssociation, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkCampaignImpressionBasedRemarketingListAssociation();
+            }
+        }));
+        m.put(StringTable.CampaignNegativeImpressionBasedRemarketingListAssociation, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkCampaignNegativeImpressionBasedRemarketingListAssociation();
+            }
+        }));
         m.put(StringTable.CalloutAdExtension, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
             @Override
             public SingleRecordBulkEntity create() {
@@ -1141,6 +1171,128 @@ public class StaticBulkObjectFactory implements BulkObjectFactory {
             @Override
             public SingleRecordBulkEntity create() {
                 return new BulkAdGroupHotelCheckInDateCriterion();
+            }
+        }));
+        
+        m.put(StringTable.SeasonalityAdjustment, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkSeasonalityAdjustment();
+            }
+        }));
+        
+        m.put(StringTable.DataExclusion, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkDataExclusion();
+            }
+        }));
+        m.put("Account Negative Keyword List", new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkAccountNegativeKeywordList();
+            }
+        }));
+        m.put("Account Negative Keyword List Association", new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkAccountNegativeKeywordListAssociation();
+            }
+        }));
+        m.put("Account Shared Negative Keyword", new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkAccountSharedNegativeKeyword();
+            }
+        }));
+        m.put(StringTable.EventGoal, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkEventGoal();
+            }
+        }));
+        m.put(StringTable.UrlGoal, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkUrlGoal();
+            }
+        }));
+        m.put(StringTable.OfflineConversionGoal, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkOfflineConversionGoal();
+            }
+        }));
+        m.put(StringTable.AppInstallGoal, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkAppInstallGoal();
+            }
+        }));
+        m.put(StringTable.PagesViewedPerVisitGoal, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkPagesViewedPerVisitGoal();
+            }
+        }));
+        m.put(StringTable.DurationGoal, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkDurationGoal();
+            }
+        }));
+        m.put(StringTable.InStoreTransactionGoal, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkInStoreTransactionGoal();
+            }
+        }));
+        m.put(StringTable.ProductGoal, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkProductGoal();
+            }
+        }));
+        m.put(StringTable.InStoreVisitGoal, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkInStoreVisitGoal();
+            }
+        }));
+        m.put(StringTable.AssetGroupSearchTheme, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkAssetGroupSearchTheme();
+            }
+        }));
+        m.put(StringTable.BrandList, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkBrandList();
+            }
+        }));
+        m.put(StringTable.BrandItem, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkBrandItem();
+            }
+        }));
+        m.put(StringTable.CampaignBrandList, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkCampaignBrandListAssociation();
+            }
+        }));
+        m.put(StringTable.AssetGroupUrlTarget, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkAssetGroupUrlTarget();
+            }
+        }));
+        m.put(StringTable.NewCustomerAcquisitionGoal, new EntityInfo(new Creator<SingleRecordBulkEntity>() {
+            @Override
+            public SingleRecordBulkEntity create() {
+                return new BulkNewCustomerAcquisitionGoal();
             }
         }));
         

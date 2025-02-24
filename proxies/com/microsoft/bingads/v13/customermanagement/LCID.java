@@ -46,6 +46,8 @@ import jakarta.xml.bind.annotation.XmlType;
  *     <enumeration value="SwedishSweden"/>
  *     <enumeration value="EnglishThailand"/>
  *     <enumeration value="EnglishIndonesia"/>
+ *     <enumeration value="Slovenian"/>
+ *     <enumeration value="Latvian"/>
  *     <enumeration value="EnglishVietnam"/>
  *     <enumeration value="ChineseChina"/>
  *     <enumeration value="GermanSwitzerland"/>
@@ -67,6 +69,19 @@ import jakarta.xml.bind.annotation.XmlType;
  *     <enumeration value="EnglishIndia"/>
  *     <enumeration value="EnglishMalaysia"/>
  *     <enumeration value="EnglishSingapore"/>
+ *     <enumeration value="TurkishTurkey"/>
+ *     <enumeration value="FilipinoPhilippines"/>
+ *     <enumeration value="PolandPolish"/>
+ *     <enumeration value="MalayMalaysia"/>
+ *     <enumeration value="UkrainianUkraine"/>
+ *     <enumeration value="CzechRepublicCZ"/>
+ *     <enumeration value="RomaniaRO"/>
+ *     <enumeration value="GreekGreece"/>
+ *     <enumeration value="HungaryHU"/>
+ *     <enumeration value="HindiIndia"/>
+ *     <enumeration value="Bulgarian"/>
+ *     <enumeration value="Lithuanian"/>
+ *     <enumeration value="Croatian"/>
  *   </restriction>
  * </simpleType>
  * }</pre>
@@ -142,6 +157,10 @@ public enum LCID {
     ENGLISH_THAILAND("EnglishThailand"),
     @XmlEnumValue("EnglishIndonesia")
     ENGLISH_INDONESIA("EnglishIndonesia"),
+    @XmlEnumValue("Slovenian")
+    SLOVENIAN("Slovenian"),
+    @XmlEnumValue("Latvian")
+    LATVIAN("Latvian"),
     @XmlEnumValue("EnglishVietnam")
     ENGLISH_VIETNAM("EnglishVietnam"),
     @XmlEnumValue("ChineseChina")
@@ -183,7 +202,33 @@ public enum LCID {
     @XmlEnumValue("EnglishMalaysia")
     ENGLISH_MALAYSIA("EnglishMalaysia"),
     @XmlEnumValue("EnglishSingapore")
-    ENGLISH_SINGAPORE("EnglishSingapore");
+    ENGLISH_SINGAPORE("EnglishSingapore"),
+    @XmlEnumValue("TurkishTurkey")
+    TURKISH_TURKEY("TurkishTurkey"),
+    @XmlEnumValue("FilipinoPhilippines")
+    FILIPINO_PHILIPPINES("FilipinoPhilippines"),
+    @XmlEnumValue("PolandPolish")
+    POLAND_POLISH("PolandPolish"),
+    @XmlEnumValue("MalayMalaysia")
+    MALAY_MALAYSIA("MalayMalaysia"),
+    @XmlEnumValue("UkrainianUkraine")
+    UKRAINIAN_UKRAINE("UkrainianUkraine"),
+    @XmlEnumValue("CzechRepublicCZ")
+    CZECH_REPUBLIC_CZ("CzechRepublicCZ"),
+    @XmlEnumValue("RomaniaRO")
+    ROMANIA_RO("RomaniaRO"),
+    @XmlEnumValue("GreekGreece")
+    GREEK_GREECE("GreekGreece"),
+    @XmlEnumValue("HungaryHU")
+    HUNGARY_HU("HungaryHU"),
+    @XmlEnumValue("HindiIndia")
+    HINDI_INDIA("HindiIndia"),
+    @XmlEnumValue("Bulgarian")
+    BULGARIAN("Bulgarian"),
+    @XmlEnumValue("Lithuanian")
+    LITHUANIAN("Lithuanian"),
+    @XmlEnumValue("Croatian")
+    CROATIAN("Croatian");
     private final String value;
 
     LCID(String v) {

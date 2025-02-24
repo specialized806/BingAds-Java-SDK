@@ -18,6 +18,8 @@ import jakarta.xml.bind.annotation.XmlType;
  *   <complexContent>
  *     <restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       <sequence>
+ *         <element name="AssetGroupSearchThemes" type="{https://bingads.microsoft.com/CampaignManagement/v13}ArrayOfAssetGroupSearchTheme" minOccurs="0"/>
+ *         <element name="AssetGroupUrlTargets" type="{https://bingads.microsoft.com/CampaignManagement/v13}ArrayOfAssetGroupUrlTarget" minOccurs="0"/>
  *         <element name="BusinessName" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         <element name="CallToAction" type="{https://bingads.microsoft.com/CampaignManagement/v13}CallToAction" minOccurs="0"/>
  *         <element name="Descriptions" type="{https://bingads.microsoft.com/CampaignManagement/v13}ArrayOfAssetLink" minOccurs="0"/>
@@ -35,6 +37,7 @@ import jakarta.xml.bind.annotation.XmlType;
  *         <element name="Path2" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         <element name="StartDate" type="{https://bingads.microsoft.com/CampaignManagement/v13}Date" minOccurs="0"/>
  *         <element name="Status" type="{https://bingads.microsoft.com/CampaignManagement/v13}AssetGroupStatus" minOccurs="0"/>
+ *         <element name="Videos" type="{https://bingads.microsoft.com/CampaignManagement/v13}ArrayOfAssetLink" minOccurs="0"/>
  *       </sequence>
  *     </restriction>
  *   </complexContent>
@@ -45,6 +48,8 @@ import jakarta.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "AssetGroup", propOrder = {
+    "assetGroupSearchThemes",
+    "assetGroupUrlTargets",
     "businessName",
     "callToAction",
     "descriptions",
@@ -61,10 +66,15 @@ import jakarta.xml.bind.annotation.XmlType;
     "path1",
     "path2",
     "startDate",
-    "status"
+    "status",
+    "videos"
 })
 public class AssetGroup {
 
+    @XmlElement(name = "AssetGroupSearchThemes", nillable = true)
+    protected ArrayOfAssetGroupSearchTheme assetGroupSearchThemes;
+    @XmlElement(name = "AssetGroupUrlTargets", nillable = true)
+    protected ArrayOfAssetGroupUrlTarget assetGroupUrlTargets;
     @XmlElement(name = "BusinessName", nillable = true)
     protected String businessName;
     @XmlElement(name = "CallToAction", nillable = true)
@@ -102,6 +112,56 @@ public class AssetGroup {
     @XmlElement(name = "Status", nillable = true)
     @XmlSchemaType(name = "string")
     protected AssetGroupStatus status;
+    @XmlElement(name = "Videos", nillable = true)
+    protected ArrayOfAssetLink videos;
+
+    /**
+     * Gets the value of the assetGroupSearchThemes property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link ArrayOfAssetGroupSearchTheme }
+     *     
+     */
+    public ArrayOfAssetGroupSearchTheme getAssetGroupSearchThemes() {
+        return assetGroupSearchThemes;
+    }
+
+    /**
+     * Sets the value of the assetGroupSearchThemes property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link ArrayOfAssetGroupSearchTheme }
+     *     
+     */
+    public void setAssetGroupSearchThemes(ArrayOfAssetGroupSearchTheme value) {
+        this.assetGroupSearchThemes = value;
+    }
+
+    /**
+     * Gets the value of the assetGroupUrlTargets property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link ArrayOfAssetGroupUrlTarget }
+     *     
+     */
+    public ArrayOfAssetGroupUrlTarget getAssetGroupUrlTargets() {
+        return assetGroupUrlTargets;
+    }
+
+    /**
+     * Sets the value of the assetGroupUrlTargets property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link ArrayOfAssetGroupUrlTarget }
+     *     
+     */
+    public void setAssetGroupUrlTargets(ArrayOfAssetGroupUrlTarget value) {
+        this.assetGroupUrlTargets = value;
+    }
 
     /**
      * Gets the value of the businessName property.
@@ -509,6 +569,30 @@ public class AssetGroup {
      */
     public void setStatus(AssetGroupStatus value) {
         this.status = value;
+    }
+
+    /**
+     * Gets the value of the videos property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link ArrayOfAssetLink }
+     *     
+     */
+    public ArrayOfAssetLink getVideos() {
+        return videos;
+    }
+
+    /**
+     * Sets the value of the videos property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link ArrayOfAssetLink }
+     *     
+     */
+    public void setVideos(ArrayOfAssetLink value) {
+        this.videos = value;
     }
 
 }

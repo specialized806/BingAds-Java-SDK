@@ -123,6 +123,23 @@ import jakarta.xml.bind.annotation.XmlType;
  *     <enumeration value="Installs"/>
  *     <enumeration value="CostPerInstall"/>
  *     <enumeration value="RevenuePerInstall"/>
+ *     <enumeration value="Downloads"/>
+ *     <enumeration value="PostClickDownloadRate"/>
+ *     <enumeration value="CostPerDownload"/>
+ *     <enumeration value="AppInstalls"/>
+ *     <enumeration value="PostClickInstallRate"/>
+ *     <enumeration value="CPI"/>
+ *     <enumeration value="Purchases"/>
+ *     <enumeration value="PostInstallPurchaseRate"/>
+ *     <enumeration value="CPP"/>
+ *     <enumeration value="Subscriptions"/>
+ *     <enumeration value="PostInstallSubscriptionRate"/>
+ *     <enumeration value="CPS"/>
+ *     <enumeration value="NewCustomerConversions"/>
+ *     <enumeration value="NewCustomerRevenue"/>
+ *     <enumeration value="NewCustomerConversionRate"/>
+ *     <enumeration value="NewCustomerCPA"/>
+ *     <enumeration value="NewCustomerReturnOnAdSpend"/>
  *   </restriction>
  * </simpleType>
  * }</pre>
@@ -351,7 +368,38 @@ public enum CampaignPerformanceReportColumn {
     @XmlEnumValue("CostPerInstall")
     COST_PER_INSTALL("CostPerInstall"),
     @XmlEnumValue("RevenuePerInstall")
-    REVENUE_PER_INSTALL("RevenuePerInstall");
+    REVENUE_PER_INSTALL("RevenuePerInstall"),
+    @XmlEnumValue("Downloads")
+    DOWNLOADS("Downloads"),
+    @XmlEnumValue("PostClickDownloadRate")
+    POST_CLICK_DOWNLOAD_RATE("PostClickDownloadRate"),
+    @XmlEnumValue("CostPerDownload")
+    COST_PER_DOWNLOAD("CostPerDownload"),
+    @XmlEnumValue("AppInstalls")
+    APP_INSTALLS("AppInstalls"),
+    @XmlEnumValue("PostClickInstallRate")
+    POST_CLICK_INSTALL_RATE("PostClickInstallRate"),
+    CPI("CPI"),
+    @XmlEnumValue("Purchases")
+    PURCHASES("Purchases"),
+    @XmlEnumValue("PostInstallPurchaseRate")
+    POST_INSTALL_PURCHASE_RATE("PostInstallPurchaseRate"),
+    CPP("CPP"),
+    @XmlEnumValue("Subscriptions")
+    SUBSCRIPTIONS("Subscriptions"),
+    @XmlEnumValue("PostInstallSubscriptionRate")
+    POST_INSTALL_SUBSCRIPTION_RATE("PostInstallSubscriptionRate"),
+    CPS("CPS"),
+    @XmlEnumValue("NewCustomerConversions")
+    NEW_CUSTOMER_CONVERSIONS("NewCustomerConversions"),
+    @XmlEnumValue("NewCustomerRevenue")
+    NEW_CUSTOMER_REVENUE("NewCustomerRevenue"),
+    @XmlEnumValue("NewCustomerConversionRate")
+    NEW_CUSTOMER_CONVERSION_RATE("NewCustomerConversionRate"),
+    @XmlEnumValue("NewCustomerCPA")
+    NEW_CUSTOMER_CPA("NewCustomerCPA"),
+    @XmlEnumValue("NewCustomerReturnOnAdSpend")
+    NEW_CUSTOMER_RETURN_ON_AD_SPEND("NewCustomerReturnOnAdSpend");
     private final String value;
 
     CampaignPerformanceReportColumn(String v) {
