@@ -167,6 +167,41 @@ import jakarta.xml.bind.annotation.XmlType;
  *     <enumeration value="AccountLogoAdExtensions"/>
  *     <enumeration value="CampaignLogoAdExtensions"/>
  *     <enumeration value="AdGroupLogoAdExtensions"/>
+ *     <enumeration value="LeadFormAdExtensions"/>
+ *     <enumeration value="AccountLeadFormAdExtensions"/>
+ *     <enumeration value="CampaignLeadFormAdExtensions"/>
+ *     <enumeration value="AccountNegativeKeywordList"/>
+ *     <enumeration value="AccountNegativeKeywordListAssociation"/>
+ *     <enumeration value="AccountNegativeKeyword"/>
+ *     <enumeration value="ConversionGoal"/>
+ *     <enumeration value="EventGoal"/>
+ *     <enumeration value="AppInstallGoal"/>
+ *     <enumeration value="MultiStageGoal"/>
+ *     <enumeration value="DurationGoal"/>
+ *     <enumeration value="OfflineConversionGoal"/>
+ *     <enumeration value="UrlGoal"/>
+ *     <enumeration value="InStoreTransactionGoal"/>
+ *     <enumeration value="PagesViewedPerVisitGoal"/>
+ *     <enumeration value="SmartGoal"/>
+ *     <enumeration value="InStoreVisitGoal"/>
+ *     <enumeration value="ProductGoal"/>
+ *     <enumeration value="SeasonalityAdjustments"/>
+ *     <enumeration value="DataExclusions"/>
+ *     <enumeration value="BrandList"/>
+ *     <enumeration value="BrandItem"/>
+ *     <enumeration value="CampaignBrandListAssociation"/>
+ *     <enumeration value="AssetGroupSearchThemes"/>
+ *     <enumeration value="ImpressionBasedRemarketingList"/>
+ *     <enumeration value="AdGroupImpressionBasedRemarketingListAssociations"/>
+ *     <enumeration value="AdGroupNegativeImpressionBasedRemarketingListAssociations"/>
+ *     <enumeration value="CampaignImpressionBasedRemarketingListAssociations"/>
+ *     <enumeration value="CampaignNegativeImpressionBasedRemarketingListAssociations"/>
+ *     <enumeration value="AssetGroupUrlTargets"/>
+ *     <enumeration value="NewCustomerAcquisitionGoal"/>
+ *     <enumeration value="ConversionValueRule"/>
+ *     <enumeration value="AccountPlacementExclusionList"/>
+ *     <enumeration value="AccountPlacementExclusionListItem"/>
+ *     <enumeration value="CampaignAccountPlacementExclusionListAssociation"/>
  *   </restriction>
  * </simpleType>
  * }</pre>
@@ -483,7 +518,77 @@ public enum DownloadEntity {
     @XmlEnumValue("CampaignLogoAdExtensions")
     CAMPAIGN_LOGO_AD_EXTENSIONS("CampaignLogoAdExtensions"),
     @XmlEnumValue("AdGroupLogoAdExtensions")
-    AD_GROUP_LOGO_AD_EXTENSIONS("AdGroupLogoAdExtensions");
+    AD_GROUP_LOGO_AD_EXTENSIONS("AdGroupLogoAdExtensions"),
+    @XmlEnumValue("LeadFormAdExtensions")
+    LEAD_FORM_AD_EXTENSIONS("LeadFormAdExtensions"),
+    @XmlEnumValue("AccountLeadFormAdExtensions")
+    ACCOUNT_LEAD_FORM_AD_EXTENSIONS("AccountLeadFormAdExtensions"),
+    @XmlEnumValue("CampaignLeadFormAdExtensions")
+    CAMPAIGN_LEAD_FORM_AD_EXTENSIONS("CampaignLeadFormAdExtensions"),
+    @XmlEnumValue("AccountNegativeKeywordList")
+    ACCOUNT_NEGATIVE_KEYWORD_LIST("AccountNegativeKeywordList"),
+    @XmlEnumValue("AccountNegativeKeywordListAssociation")
+    ACCOUNT_NEGATIVE_KEYWORD_LIST_ASSOCIATION("AccountNegativeKeywordListAssociation"),
+    @XmlEnumValue("AccountNegativeKeyword")
+    ACCOUNT_NEGATIVE_KEYWORD("AccountNegativeKeyword"),
+    @XmlEnumValue("ConversionGoal")
+    CONVERSION_GOAL("ConversionGoal"),
+    @XmlEnumValue("EventGoal")
+    EVENT_GOAL("EventGoal"),
+    @XmlEnumValue("AppInstallGoal")
+    APP_INSTALL_GOAL("AppInstallGoal"),
+    @XmlEnumValue("MultiStageGoal")
+    MULTI_STAGE_GOAL("MultiStageGoal"),
+    @XmlEnumValue("DurationGoal")
+    DURATION_GOAL("DurationGoal"),
+    @XmlEnumValue("OfflineConversionGoal")
+    OFFLINE_CONVERSION_GOAL("OfflineConversionGoal"),
+    @XmlEnumValue("UrlGoal")
+    URL_GOAL("UrlGoal"),
+    @XmlEnumValue("InStoreTransactionGoal")
+    IN_STORE_TRANSACTION_GOAL("InStoreTransactionGoal"),
+    @XmlEnumValue("PagesViewedPerVisitGoal")
+    PAGES_VIEWED_PER_VISIT_GOAL("PagesViewedPerVisitGoal"),
+    @XmlEnumValue("SmartGoal")
+    SMART_GOAL("SmartGoal"),
+    @XmlEnumValue("InStoreVisitGoal")
+    IN_STORE_VISIT_GOAL("InStoreVisitGoal"),
+    @XmlEnumValue("ProductGoal")
+    PRODUCT_GOAL("ProductGoal"),
+    @XmlEnumValue("SeasonalityAdjustments")
+    SEASONALITY_ADJUSTMENTS("SeasonalityAdjustments"),
+    @XmlEnumValue("DataExclusions")
+    DATA_EXCLUSIONS("DataExclusions"),
+    @XmlEnumValue("BrandList")
+    BRAND_LIST("BrandList"),
+    @XmlEnumValue("BrandItem")
+    BRAND_ITEM("BrandItem"),
+    @XmlEnumValue("CampaignBrandListAssociation")
+    CAMPAIGN_BRAND_LIST_ASSOCIATION("CampaignBrandListAssociation"),
+    @XmlEnumValue("AssetGroupSearchThemes")
+    ASSET_GROUP_SEARCH_THEMES("AssetGroupSearchThemes"),
+    @XmlEnumValue("ImpressionBasedRemarketingList")
+    IMPRESSION_BASED_REMARKETING_LIST("ImpressionBasedRemarketingList"),
+    @XmlEnumValue("AdGroupImpressionBasedRemarketingListAssociations")
+    AD_GROUP_IMPRESSION_BASED_REMARKETING_LIST_ASSOCIATIONS("AdGroupImpressionBasedRemarketingListAssociations"),
+    @XmlEnumValue("AdGroupNegativeImpressionBasedRemarketingListAssociations")
+    AD_GROUP_NEGATIVE_IMPRESSION_BASED_REMARKETING_LIST_ASSOCIATIONS("AdGroupNegativeImpressionBasedRemarketingListAssociations"),
+    @XmlEnumValue("CampaignImpressionBasedRemarketingListAssociations")
+    CAMPAIGN_IMPRESSION_BASED_REMARKETING_LIST_ASSOCIATIONS("CampaignImpressionBasedRemarketingListAssociations"),
+    @XmlEnumValue("CampaignNegativeImpressionBasedRemarketingListAssociations")
+    CAMPAIGN_NEGATIVE_IMPRESSION_BASED_REMARKETING_LIST_ASSOCIATIONS("CampaignNegativeImpressionBasedRemarketingListAssociations"),
+    @XmlEnumValue("AssetGroupUrlTargets")
+    ASSET_GROUP_URL_TARGETS("AssetGroupUrlTargets"),
+    @XmlEnumValue("NewCustomerAcquisitionGoal")
+    NEW_CUSTOMER_ACQUISITION_GOAL("NewCustomerAcquisitionGoal"),
+    @XmlEnumValue("ConversionValueRule")
+    CONVERSION_VALUE_RULE("ConversionValueRule"),
+    @XmlEnumValue("AccountPlacementExclusionList")
+    ACCOUNT_PLACEMENT_EXCLUSION_LIST("AccountPlacementExclusionList"),
+    @XmlEnumValue("AccountPlacementExclusionListItem")
+    ACCOUNT_PLACEMENT_EXCLUSION_LIST_ITEM("AccountPlacementExclusionListItem"),
+    @XmlEnumValue("CampaignAccountPlacementExclusionListAssociation")
+    CAMPAIGN_ACCOUNT_PLACEMENT_EXCLUSION_LIST_ASSOCIATION("CampaignAccountPlacementExclusionListAssociation");
     private final String value;
 
     DownloadEntity(String v) {

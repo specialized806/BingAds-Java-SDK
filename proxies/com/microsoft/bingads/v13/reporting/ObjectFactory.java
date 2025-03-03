@@ -156,6 +156,7 @@ public class ObjectFactory {
     private static final QName _ArrayOfProductPartitionPerformanceReportColumn_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "ArrayOfProductPartitionPerformanceReportColumn");
     private static final QName _ProductPartitionPerformanceReportColumn_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "ProductPartitionPerformanceReportColumn");
     private static final QName _ProductPartitionPerformanceReportFilter_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "ProductPartitionPerformanceReportFilter");
+    private static final QName _CampaignTypeReportFilter_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "CampaignTypeReportFilter");
     private static final QName _ProductPartitionUnitPerformanceReportRequest_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "ProductPartitionUnitPerformanceReportRequest");
     private static final QName _ArrayOfProductPartitionUnitPerformanceReportColumn_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "ArrayOfProductPartitionUnitPerformanceReportColumn");
     private static final QName _ProductPartitionUnitPerformanceReportColumn_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "ProductPartitionUnitPerformanceReportColumn");
@@ -200,6 +201,32 @@ public class ObjectFactory {
     private static final QName _ArrayOfHotelGroupPerformanceReportColumn_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "ArrayOfHotelGroupPerformanceReportColumn");
     private static final QName _HotelGroupPerformanceReportColumn_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "HotelGroupPerformanceReportColumn");
     private static final QName _HotelGroupPerformanceReportFilter_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "HotelGroupPerformanceReportFilter");
+    private static final QName _AssetGroupPerformanceReportRequest_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "AssetGroupPerformanceReportRequest");
+    private static final QName _ArrayOfAssetGroupPerformanceReportColumn_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "ArrayOfAssetGroupPerformanceReportColumn");
+    private static final QName _AssetGroupPerformanceReportColumn_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "AssetGroupPerformanceReportColumn");
+    private static final QName _AssetGroupPerformanceReportFilter_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "AssetGroupPerformanceReportFilter");
+    private static final QName _AccountThroughAssetGroupReportScope_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "AccountThroughAssetGroupReportScope");
+    private static final QName _ArrayOfAssetGroupReportScope_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "ArrayOfAssetGroupReportScope");
+    private static final QName _AssetGroupReportScope_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "AssetGroupReportScope");
+    private static final QName _SearchInsightPerformanceReportRequest_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "SearchInsightPerformanceReportRequest");
+    private static final QName _ArrayOfSearchInsightPerformanceReportColumn_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "ArrayOfSearchInsightPerformanceReportColumn");
+    private static final QName _SearchInsightPerformanceReportColumn_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "SearchInsightPerformanceReportColumn");
+    private static final QName _SearchInsightPerformanceReportFilter_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "SearchInsightPerformanceReportFilter");
+    private static final QName _AssetPerformanceReportRequest_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "AssetPerformanceReportRequest");
+    private static final QName _ArrayOfAssetPerformanceReportColumn_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "ArrayOfAssetPerformanceReportColumn");
+    private static final QName _AssetPerformanceReportColumn_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "AssetPerformanceReportColumn");
+    private static final QName _CategoryInsightsReportRequest_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "CategoryInsightsReportRequest");
+    private static final QName _ArrayOfCategoryInsightsReportColumn_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "ArrayOfCategoryInsightsReportColumn");
+    private static final QName _CategoryInsightsReportColumn_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "CategoryInsightsReportColumn");
+    private static final QName _CategoryInsightsReportFilter_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "CategoryInsightsReportFilter");
+    private static final QName _CategoryClickCoverageReportRequest_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "CategoryClickCoverageReportRequest");
+    private static final QName _ArrayOfCategoryClickCoverageReportColumn_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "ArrayOfCategoryClickCoverageReportColumn");
+    private static final QName _CategoryClickCoverageReportColumn_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "CategoryClickCoverageReportColumn");
+    private static final QName _CategoryClickCoverageReportFilter_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "CategoryClickCoverageReportFilter");
+    private static final QName _CombinationPerformanceReportRequest_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "CombinationPerformanceReportRequest");
+    private static final QName _ArrayOfCombinationPerformanceReportColumn_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "ArrayOfCombinationPerformanceReportColumn");
+    private static final QName _CombinationPerformanceReportColumn_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "CombinationPerformanceReportColumn");
+    private static final QName _CombinationPerformanceReportFilter_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "CombinationPerformanceReportFilter");
     private static final QName _ApplicationToken_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "ApplicationToken");
     private static final QName _AuthenticationToken_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "AuthenticationToken");
     private static final QName _CustomerAccountId_QNAME = new QName("https://bingads.microsoft.com/Reporting/v13", "CustomerAccountId");
@@ -1539,6 +1566,206 @@ public class ObjectFactory {
      */
     public HotelGroupPerformanceReportFilter createHotelGroupPerformanceReportFilter() {
         return new HotelGroupPerformanceReportFilter();
+    }
+
+    /**
+     * Create an instance of {@link AssetGroupPerformanceReportRequest }
+     * 
+     * @return
+     *     the new instance of {@link AssetGroupPerformanceReportRequest }
+     */
+    public AssetGroupPerformanceReportRequest createAssetGroupPerformanceReportRequest() {
+        return new AssetGroupPerformanceReportRequest();
+    }
+
+    /**
+     * Create an instance of {@link ArrayOfAssetGroupPerformanceReportColumn }
+     * 
+     * @return
+     *     the new instance of {@link ArrayOfAssetGroupPerformanceReportColumn }
+     */
+    public ArrayOfAssetGroupPerformanceReportColumn createArrayOfAssetGroupPerformanceReportColumn() {
+        return new ArrayOfAssetGroupPerformanceReportColumn();
+    }
+
+    /**
+     * Create an instance of {@link AssetGroupPerformanceReportFilter }
+     * 
+     * @return
+     *     the new instance of {@link AssetGroupPerformanceReportFilter }
+     */
+    public AssetGroupPerformanceReportFilter createAssetGroupPerformanceReportFilter() {
+        return new AssetGroupPerformanceReportFilter();
+    }
+
+    /**
+     * Create an instance of {@link AccountThroughAssetGroupReportScope }
+     * 
+     * @return
+     *     the new instance of {@link AccountThroughAssetGroupReportScope }
+     */
+    public AccountThroughAssetGroupReportScope createAccountThroughAssetGroupReportScope() {
+        return new AccountThroughAssetGroupReportScope();
+    }
+
+    /**
+     * Create an instance of {@link ArrayOfAssetGroupReportScope }
+     * 
+     * @return
+     *     the new instance of {@link ArrayOfAssetGroupReportScope }
+     */
+    public ArrayOfAssetGroupReportScope createArrayOfAssetGroupReportScope() {
+        return new ArrayOfAssetGroupReportScope();
+    }
+
+    /**
+     * Create an instance of {@link AssetGroupReportScope }
+     * 
+     * @return
+     *     the new instance of {@link AssetGroupReportScope }
+     */
+    public AssetGroupReportScope createAssetGroupReportScope() {
+        return new AssetGroupReportScope();
+    }
+
+    /**
+     * Create an instance of {@link SearchInsightPerformanceReportRequest }
+     * 
+     * @return
+     *     the new instance of {@link SearchInsightPerformanceReportRequest }
+     */
+    public SearchInsightPerformanceReportRequest createSearchInsightPerformanceReportRequest() {
+        return new SearchInsightPerformanceReportRequest();
+    }
+
+    /**
+     * Create an instance of {@link ArrayOfSearchInsightPerformanceReportColumn }
+     * 
+     * @return
+     *     the new instance of {@link ArrayOfSearchInsightPerformanceReportColumn }
+     */
+    public ArrayOfSearchInsightPerformanceReportColumn createArrayOfSearchInsightPerformanceReportColumn() {
+        return new ArrayOfSearchInsightPerformanceReportColumn();
+    }
+
+    /**
+     * Create an instance of {@link SearchInsightPerformanceReportFilter }
+     * 
+     * @return
+     *     the new instance of {@link SearchInsightPerformanceReportFilter }
+     */
+    public SearchInsightPerformanceReportFilter createSearchInsightPerformanceReportFilter() {
+        return new SearchInsightPerformanceReportFilter();
+    }
+
+    /**
+     * Create an instance of {@link AssetPerformanceReportRequest }
+     * 
+     * @return
+     *     the new instance of {@link AssetPerformanceReportRequest }
+     */
+    public AssetPerformanceReportRequest createAssetPerformanceReportRequest() {
+        return new AssetPerformanceReportRequest();
+    }
+
+    /**
+     * Create an instance of {@link ArrayOfAssetPerformanceReportColumn }
+     * 
+     * @return
+     *     the new instance of {@link ArrayOfAssetPerformanceReportColumn }
+     */
+    public ArrayOfAssetPerformanceReportColumn createArrayOfAssetPerformanceReportColumn() {
+        return new ArrayOfAssetPerformanceReportColumn();
+    }
+
+    /**
+     * Create an instance of {@link CategoryInsightsReportRequest }
+     * 
+     * @return
+     *     the new instance of {@link CategoryInsightsReportRequest }
+     */
+    public CategoryInsightsReportRequest createCategoryInsightsReportRequest() {
+        return new CategoryInsightsReportRequest();
+    }
+
+    /**
+     * Create an instance of {@link ArrayOfCategoryInsightsReportColumn }
+     * 
+     * @return
+     *     the new instance of {@link ArrayOfCategoryInsightsReportColumn }
+     */
+    public ArrayOfCategoryInsightsReportColumn createArrayOfCategoryInsightsReportColumn() {
+        return new ArrayOfCategoryInsightsReportColumn();
+    }
+
+    /**
+     * Create an instance of {@link CategoryInsightsReportFilter }
+     * 
+     * @return
+     *     the new instance of {@link CategoryInsightsReportFilter }
+     */
+    public CategoryInsightsReportFilter createCategoryInsightsReportFilter() {
+        return new CategoryInsightsReportFilter();
+    }
+
+    /**
+     * Create an instance of {@link CategoryClickCoverageReportRequest }
+     * 
+     * @return
+     *     the new instance of {@link CategoryClickCoverageReportRequest }
+     */
+    public CategoryClickCoverageReportRequest createCategoryClickCoverageReportRequest() {
+        return new CategoryClickCoverageReportRequest();
+    }
+
+    /**
+     * Create an instance of {@link ArrayOfCategoryClickCoverageReportColumn }
+     * 
+     * @return
+     *     the new instance of {@link ArrayOfCategoryClickCoverageReportColumn }
+     */
+    public ArrayOfCategoryClickCoverageReportColumn createArrayOfCategoryClickCoverageReportColumn() {
+        return new ArrayOfCategoryClickCoverageReportColumn();
+    }
+
+    /**
+     * Create an instance of {@link CategoryClickCoverageReportFilter }
+     * 
+     * @return
+     *     the new instance of {@link CategoryClickCoverageReportFilter }
+     */
+    public CategoryClickCoverageReportFilter createCategoryClickCoverageReportFilter() {
+        return new CategoryClickCoverageReportFilter();
+    }
+
+    /**
+     * Create an instance of {@link CombinationPerformanceReportRequest }
+     * 
+     * @return
+     *     the new instance of {@link CombinationPerformanceReportRequest }
+     */
+    public CombinationPerformanceReportRequest createCombinationPerformanceReportRequest() {
+        return new CombinationPerformanceReportRequest();
+    }
+
+    /**
+     * Create an instance of {@link ArrayOfCombinationPerformanceReportColumn }
+     * 
+     * @return
+     *     the new instance of {@link ArrayOfCombinationPerformanceReportColumn }
+     */
+    public ArrayOfCombinationPerformanceReportColumn createArrayOfCombinationPerformanceReportColumn() {
+        return new ArrayOfCombinationPerformanceReportColumn();
+    }
+
+    /**
+     * Create an instance of {@link CombinationPerformanceReportFilter }
+     * 
+     * @return
+     *     the new instance of {@link CombinationPerformanceReportFilter }
+     */
+    public CombinationPerformanceReportFilter createCombinationPerformanceReportFilter() {
+        return new CombinationPerformanceReportFilter();
     }
 
     /**
@@ -3412,6 +3639,20 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Collection }{@code <}{@link CampaignTypeReportFilter }{@code >}{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Collection }{@code <}{@link CampaignTypeReportFilter }{@code >}{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "CampaignTypeReportFilter")
+    @XmlJavaTypeAdapter(Adapter18 .class)
+    public JAXBElement<Collection<CampaignTypeReportFilter>> createCampaignTypeReportFilter(Collection<CampaignTypeReportFilter> value) {
+        return new JAXBElement<>(_CampaignTypeReportFilter_QNAME, ((Class) Collection.class), null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link ProductPartitionUnitPerformanceReportRequest }{@code >}
      * 
      * @param value
@@ -3823,7 +4064,7 @@ public class ObjectFactory {
      *     the new instance of {@link JAXBElement }{@code <}{@link Collection }{@code <}{@link DynamicAdTargetStatusReportFilter }{@code >}{@code >}
      */
     @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "DynamicAdTargetStatusReportFilter")
-    @XmlJavaTypeAdapter(Adapter18 .class)
+    @XmlJavaTypeAdapter(Adapter19 .class)
     public JAXBElement<Collection<DynamicAdTargetStatusReportFilter>> createDynamicAdTargetStatusReportFilter(Collection<DynamicAdTargetStatusReportFilter> value) {
         return new JAXBElement<>(_DynamicAdTargetStatusReportFilter_QNAME, ((Class) Collection.class), null, value);
     }
@@ -3982,6 +4223,344 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "HotelGroupPerformanceReportFilter")
     public JAXBElement<HotelGroupPerformanceReportFilter> createHotelGroupPerformanceReportFilter(HotelGroupPerformanceReportFilter value) {
         return new JAXBElement<>(_HotelGroupPerformanceReportFilter_QNAME, HotelGroupPerformanceReportFilter.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AssetGroupPerformanceReportRequest }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link AssetGroupPerformanceReportRequest }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "AssetGroupPerformanceReportRequest")
+    public JAXBElement<AssetGroupPerformanceReportRequest> createAssetGroupPerformanceReportRequest(AssetGroupPerformanceReportRequest value) {
+        return new JAXBElement<>(_AssetGroupPerformanceReportRequest_QNAME, AssetGroupPerformanceReportRequest.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link ArrayOfAssetGroupPerformanceReportColumn }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ArrayOfAssetGroupPerformanceReportColumn }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "ArrayOfAssetGroupPerformanceReportColumn")
+    public JAXBElement<ArrayOfAssetGroupPerformanceReportColumn> createArrayOfAssetGroupPerformanceReportColumn(ArrayOfAssetGroupPerformanceReportColumn value) {
+        return new JAXBElement<>(_ArrayOfAssetGroupPerformanceReportColumn_QNAME, ArrayOfAssetGroupPerformanceReportColumn.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AssetGroupPerformanceReportColumn }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link AssetGroupPerformanceReportColumn }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "AssetGroupPerformanceReportColumn")
+    public JAXBElement<AssetGroupPerformanceReportColumn> createAssetGroupPerformanceReportColumn(AssetGroupPerformanceReportColumn value) {
+        return new JAXBElement<>(_AssetGroupPerformanceReportColumn_QNAME, AssetGroupPerformanceReportColumn.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AssetGroupPerformanceReportFilter }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link AssetGroupPerformanceReportFilter }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "AssetGroupPerformanceReportFilter")
+    public JAXBElement<AssetGroupPerformanceReportFilter> createAssetGroupPerformanceReportFilter(AssetGroupPerformanceReportFilter value) {
+        return new JAXBElement<>(_AssetGroupPerformanceReportFilter_QNAME, AssetGroupPerformanceReportFilter.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AccountThroughAssetGroupReportScope }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link AccountThroughAssetGroupReportScope }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "AccountThroughAssetGroupReportScope")
+    public JAXBElement<AccountThroughAssetGroupReportScope> createAccountThroughAssetGroupReportScope(AccountThroughAssetGroupReportScope value) {
+        return new JAXBElement<>(_AccountThroughAssetGroupReportScope_QNAME, AccountThroughAssetGroupReportScope.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link ArrayOfAssetGroupReportScope }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ArrayOfAssetGroupReportScope }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "ArrayOfAssetGroupReportScope")
+    public JAXBElement<ArrayOfAssetGroupReportScope> createArrayOfAssetGroupReportScope(ArrayOfAssetGroupReportScope value) {
+        return new JAXBElement<>(_ArrayOfAssetGroupReportScope_QNAME, ArrayOfAssetGroupReportScope.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AssetGroupReportScope }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link AssetGroupReportScope }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "AssetGroupReportScope")
+    public JAXBElement<AssetGroupReportScope> createAssetGroupReportScope(AssetGroupReportScope value) {
+        return new JAXBElement<>(_AssetGroupReportScope_QNAME, AssetGroupReportScope.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link SearchInsightPerformanceReportRequest }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SearchInsightPerformanceReportRequest }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "SearchInsightPerformanceReportRequest")
+    public JAXBElement<SearchInsightPerformanceReportRequest> createSearchInsightPerformanceReportRequest(SearchInsightPerformanceReportRequest value) {
+        return new JAXBElement<>(_SearchInsightPerformanceReportRequest_QNAME, SearchInsightPerformanceReportRequest.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link ArrayOfSearchInsightPerformanceReportColumn }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ArrayOfSearchInsightPerformanceReportColumn }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "ArrayOfSearchInsightPerformanceReportColumn")
+    public JAXBElement<ArrayOfSearchInsightPerformanceReportColumn> createArrayOfSearchInsightPerformanceReportColumn(ArrayOfSearchInsightPerformanceReportColumn value) {
+        return new JAXBElement<>(_ArrayOfSearchInsightPerformanceReportColumn_QNAME, ArrayOfSearchInsightPerformanceReportColumn.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link SearchInsightPerformanceReportColumn }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SearchInsightPerformanceReportColumn }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "SearchInsightPerformanceReportColumn")
+    public JAXBElement<SearchInsightPerformanceReportColumn> createSearchInsightPerformanceReportColumn(SearchInsightPerformanceReportColumn value) {
+        return new JAXBElement<>(_SearchInsightPerformanceReportColumn_QNAME, SearchInsightPerformanceReportColumn.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link SearchInsightPerformanceReportFilter }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SearchInsightPerformanceReportFilter }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "SearchInsightPerformanceReportFilter")
+    public JAXBElement<SearchInsightPerformanceReportFilter> createSearchInsightPerformanceReportFilter(SearchInsightPerformanceReportFilter value) {
+        return new JAXBElement<>(_SearchInsightPerformanceReportFilter_QNAME, SearchInsightPerformanceReportFilter.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AssetPerformanceReportRequest }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link AssetPerformanceReportRequest }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "AssetPerformanceReportRequest")
+    public JAXBElement<AssetPerformanceReportRequest> createAssetPerformanceReportRequest(AssetPerformanceReportRequest value) {
+        return new JAXBElement<>(_AssetPerformanceReportRequest_QNAME, AssetPerformanceReportRequest.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link ArrayOfAssetPerformanceReportColumn }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ArrayOfAssetPerformanceReportColumn }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "ArrayOfAssetPerformanceReportColumn")
+    public JAXBElement<ArrayOfAssetPerformanceReportColumn> createArrayOfAssetPerformanceReportColumn(ArrayOfAssetPerformanceReportColumn value) {
+        return new JAXBElement<>(_ArrayOfAssetPerformanceReportColumn_QNAME, ArrayOfAssetPerformanceReportColumn.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AssetPerformanceReportColumn }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link AssetPerformanceReportColumn }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "AssetPerformanceReportColumn")
+    public JAXBElement<AssetPerformanceReportColumn> createAssetPerformanceReportColumn(AssetPerformanceReportColumn value) {
+        return new JAXBElement<>(_AssetPerformanceReportColumn_QNAME, AssetPerformanceReportColumn.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CategoryInsightsReportRequest }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CategoryInsightsReportRequest }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "CategoryInsightsReportRequest")
+    public JAXBElement<CategoryInsightsReportRequest> createCategoryInsightsReportRequest(CategoryInsightsReportRequest value) {
+        return new JAXBElement<>(_CategoryInsightsReportRequest_QNAME, CategoryInsightsReportRequest.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link ArrayOfCategoryInsightsReportColumn }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ArrayOfCategoryInsightsReportColumn }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "ArrayOfCategoryInsightsReportColumn")
+    public JAXBElement<ArrayOfCategoryInsightsReportColumn> createArrayOfCategoryInsightsReportColumn(ArrayOfCategoryInsightsReportColumn value) {
+        return new JAXBElement<>(_ArrayOfCategoryInsightsReportColumn_QNAME, ArrayOfCategoryInsightsReportColumn.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CategoryInsightsReportColumn }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CategoryInsightsReportColumn }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "CategoryInsightsReportColumn")
+    public JAXBElement<CategoryInsightsReportColumn> createCategoryInsightsReportColumn(CategoryInsightsReportColumn value) {
+        return new JAXBElement<>(_CategoryInsightsReportColumn_QNAME, CategoryInsightsReportColumn.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CategoryInsightsReportFilter }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CategoryInsightsReportFilter }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "CategoryInsightsReportFilter")
+    public JAXBElement<CategoryInsightsReportFilter> createCategoryInsightsReportFilter(CategoryInsightsReportFilter value) {
+        return new JAXBElement<>(_CategoryInsightsReportFilter_QNAME, CategoryInsightsReportFilter.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CategoryClickCoverageReportRequest }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CategoryClickCoverageReportRequest }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "CategoryClickCoverageReportRequest")
+    public JAXBElement<CategoryClickCoverageReportRequest> createCategoryClickCoverageReportRequest(CategoryClickCoverageReportRequest value) {
+        return new JAXBElement<>(_CategoryClickCoverageReportRequest_QNAME, CategoryClickCoverageReportRequest.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link ArrayOfCategoryClickCoverageReportColumn }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ArrayOfCategoryClickCoverageReportColumn }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "ArrayOfCategoryClickCoverageReportColumn")
+    public JAXBElement<ArrayOfCategoryClickCoverageReportColumn> createArrayOfCategoryClickCoverageReportColumn(ArrayOfCategoryClickCoverageReportColumn value) {
+        return new JAXBElement<>(_ArrayOfCategoryClickCoverageReportColumn_QNAME, ArrayOfCategoryClickCoverageReportColumn.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CategoryClickCoverageReportColumn }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CategoryClickCoverageReportColumn }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "CategoryClickCoverageReportColumn")
+    public JAXBElement<CategoryClickCoverageReportColumn> createCategoryClickCoverageReportColumn(CategoryClickCoverageReportColumn value) {
+        return new JAXBElement<>(_CategoryClickCoverageReportColumn_QNAME, CategoryClickCoverageReportColumn.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CategoryClickCoverageReportFilter }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CategoryClickCoverageReportFilter }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "CategoryClickCoverageReportFilter")
+    public JAXBElement<CategoryClickCoverageReportFilter> createCategoryClickCoverageReportFilter(CategoryClickCoverageReportFilter value) {
+        return new JAXBElement<>(_CategoryClickCoverageReportFilter_QNAME, CategoryClickCoverageReportFilter.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CombinationPerformanceReportRequest }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CombinationPerformanceReportRequest }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "CombinationPerformanceReportRequest")
+    public JAXBElement<CombinationPerformanceReportRequest> createCombinationPerformanceReportRequest(CombinationPerformanceReportRequest value) {
+        return new JAXBElement<>(_CombinationPerformanceReportRequest_QNAME, CombinationPerformanceReportRequest.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link ArrayOfCombinationPerformanceReportColumn }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ArrayOfCombinationPerformanceReportColumn }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "ArrayOfCombinationPerformanceReportColumn")
+    public JAXBElement<ArrayOfCombinationPerformanceReportColumn> createArrayOfCombinationPerformanceReportColumn(ArrayOfCombinationPerformanceReportColumn value) {
+        return new JAXBElement<>(_ArrayOfCombinationPerformanceReportColumn_QNAME, ArrayOfCombinationPerformanceReportColumn.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CombinationPerformanceReportColumn }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CombinationPerformanceReportColumn }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "CombinationPerformanceReportColumn")
+    public JAXBElement<CombinationPerformanceReportColumn> createCombinationPerformanceReportColumn(CombinationPerformanceReportColumn value) {
+        return new JAXBElement<>(_CombinationPerformanceReportColumn_QNAME, CombinationPerformanceReportColumn.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CombinationPerformanceReportFilter }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CombinationPerformanceReportFilter }{@code >}
+     */
+    @XmlElementDecl(namespace = "https://bingads.microsoft.com/Reporting/v13", name = "CombinationPerformanceReportFilter")
+    public JAXBElement<CombinationPerformanceReportFilter> createCombinationPerformanceReportFilter(CombinationPerformanceReportFilter value) {
+        return new JAXBElement<>(_CombinationPerformanceReportFilter_QNAME, CombinationPerformanceReportFilter.class, null, value);
     }
 
     /**

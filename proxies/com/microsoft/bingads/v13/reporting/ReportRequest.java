@@ -36,6 +36,7 @@ import jakarta.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "ReportRequest", propOrder = {
+    "type",
     "excludeColumnHeaders",
     "excludeReportFooter",
     "excludeReportHeader",
@@ -79,11 +80,28 @@ import jakarta.xml.bind.annotation.XmlType;
     DSAAutoTargetPerformanceReportRequest.class,
     DSACategoryPerformanceReportRequest.class,
     HotelDimensionPerformanceReportRequest.class,
-    HotelGroupPerformanceReportRequest.class
+    HotelGroupPerformanceReportRequest.class,
+    AssetGroupPerformanceReportRequest.class,
+    SearchInsightPerformanceReportRequest.class,
+    AssetPerformanceReportRequest.class,
+    CategoryInsightsReportRequest.class,
+    CategoryClickCoverageReportRequest.class,
+    CombinationPerformanceReportRequest.class
 })
 public class ReportRequest {
+    protected String type;
 
-    @XmlElement(name = "ExcludeColumnHeaders", nillable = true)
+    public String getType() {
+        return type;
+    }
+    public void setType(String value) {
+
+    }
+
+    public ReportRequest() {
+        this.type = "ReportRequest";
+    }
+
     protected Boolean excludeColumnHeaders;
     @XmlElement(name = "ExcludeReportFooter", nillable = true)
     protected Boolean excludeReportFooter;

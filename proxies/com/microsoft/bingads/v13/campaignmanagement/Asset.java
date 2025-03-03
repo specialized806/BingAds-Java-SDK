@@ -49,6 +49,10 @@ public class Asset {
     @XmlElement(name = "Type", nillable = true)
     protected String type;
 
+    public Asset() {
+        this.type = "Asset";
+    }
+
     /**
      * Gets the value of the id property.
      * 
@@ -118,7 +122,7 @@ public class Asset {
      *     
      */
     public void setType(String value) {
-        this.type = value;
+
     }
 
 }

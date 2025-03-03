@@ -28,6 +28,8 @@ import jakarta.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
  *         <element name="DocumentDate" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>
  *         <element name="DocumentId" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
  *         <element name="CustomerId" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
+ *         <element name="CampaignId" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
+ *         <element name="DocumentNumber" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *       </sequence>
  *     </restriction>
  *   </complexContent>
@@ -45,7 +47,9 @@ import jakarta.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
     "currencyCode",
     "documentDate",
     "documentId",
-    "customerId"
+    "customerId",
+    "campaignId",
+    "documentNumber"
 })
 public class BillingDocumentInfo {
 
@@ -67,6 +71,10 @@ public class BillingDocumentInfo {
     protected Long documentId;
     @XmlElement(name = "CustomerId", nillable = true)
     protected Integer customerId;
+    @XmlElement(name = "CampaignId", nillable = true)
+    protected Long campaignId;
+    @XmlElement(name = "DocumentNumber", nillable = true)
+    protected String documentNumber;
 
     /**
      * Gets the value of the accountId property.
@@ -258,6 +266,54 @@ public class BillingDocumentInfo {
      */
     public void setCustomerId(Integer value) {
         this.customerId = value;
+    }
+
+    /**
+     * Gets the value of the campaignId property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Long }
+     *     
+     */
+    public Long getCampaignId() {
+        return campaignId;
+    }
+
+    /**
+     * Sets the value of the campaignId property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Long }
+     *     
+     */
+    public void setCampaignId(Long value) {
+        this.campaignId = value;
+    }
+
+    /**
+     * Gets the value of the documentNumber property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getDocumentNumber() {
+        return documentNumber;
+    }
+
+    /**
+     * Sets the value of the documentNumber property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setDocumentNumber(String value) {
+        this.documentNumber = value;
     }
 
 }

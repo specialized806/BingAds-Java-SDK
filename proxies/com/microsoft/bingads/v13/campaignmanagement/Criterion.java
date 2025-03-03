@@ -52,12 +52,17 @@ import jakarta.xml.bind.annotation.XmlType;
     ProfileCriterion.class,
     StoreCriterion.class,
     DealCriterion.class,
-    GenreCriterion.class
+    GenreCriterion.class,
+    PlacementCriterion.class
 })
 public class Criterion {
 
     @XmlElement(name = "Type", nillable = true)
     protected String type;
+
+    public Criterion() {
+        this.type = "Criterion";
+    }
 
     /**
      * Gets the value of the type property.
@@ -80,7 +85,7 @@ public class Criterion {
      *     
      */
     public void setType(String value) {
-        this.type = value;
+
     }
 
 }

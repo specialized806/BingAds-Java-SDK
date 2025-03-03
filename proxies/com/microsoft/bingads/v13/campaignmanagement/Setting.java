@@ -42,12 +42,20 @@ import jakarta.xml.bind.annotation.XmlType;
     HotelSetting.class,
     ResponsiveSearchAdsSetting.class,
     PerformanceMaxSetting.class,
-    CallToActionSetting.class
+    CallToActionSetting.class,
+    VanityPharmaSetting.class,
+    AppSetting.class,
+    ThirdPartyMeasurementSetting.class,
+    NewCustomerAcquisitionGoalSetting.class
 })
 public class Setting {
 
     @XmlElement(name = "Type", nillable = true)
     protected String type;
+
+    public Setting() {
+        this.type = "Setting";
+    }
 
     /**
      * Gets the value of the type property.
@@ -70,7 +78,7 @@ public class Setting {
      *     
      */
     public void setType(String value) {
-        this.type = value;
+
     }
 
 }

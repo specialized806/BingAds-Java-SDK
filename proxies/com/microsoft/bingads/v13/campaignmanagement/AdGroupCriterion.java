@@ -58,6 +58,10 @@ public class AdGroupCriterion {
     @XmlElement(name = "Type", nillable = true)
     protected String type;
 
+    public AdGroupCriterion() {
+        this.type = "AdGroupCriterion";
+    }
+
     /**
      * Gets the value of the adGroupId property.
      * 
@@ -175,7 +179,7 @@ public class AdGroupCriterion {
      *     
      */
     public void setType(String value) {
-        this.type = value;
+
     }
 
 }

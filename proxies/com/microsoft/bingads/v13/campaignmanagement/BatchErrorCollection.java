@@ -71,6 +71,10 @@ public class BatchErrorCollection {
     @XmlElement(name = "Type", nillable = true)
     protected String type;
 
+    public BatchErrorCollection() {
+        this.type = "BatchErrorCollection";
+    }
+
     /**
      * Gets the value of the batchErrors property.
      * 
@@ -284,7 +288,7 @@ public class BatchErrorCollection {
      *     
      */
     public void setType(String value) {
-        this.type = value;
+
     }
 
 }

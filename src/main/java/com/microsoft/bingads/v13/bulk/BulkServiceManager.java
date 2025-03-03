@@ -28,7 +28,6 @@ import com.microsoft.bingads.HeadersImpl;
 import com.microsoft.bingads.InternalException;
 import com.microsoft.bingads.ServiceClient;
 import com.microsoft.bingads.internal.HttpHeaders;
-import com.microsoft.bingads.internal.MessageHandler;
 import com.microsoft.bingads.internal.ParentCallback;
 import com.microsoft.bingads.internal.ResultFuture;
 import com.microsoft.bingads.internal.ServiceUtils;
@@ -680,9 +679,6 @@ public class BulkServiceManager {
                             });
                         }
                     };
-
-                    MessageHandler.getInstance().handleDirectMessage("Bulk Upload... requestId: " + response.getRequestId() + "; UploadFilePath:"
-                            + parameters.getUploadFilePath() + "; uploadUrl: " + uploadUrl);
 
                     httpFileService.uploadFile(new URI(uploadUrl), effectiveUploadPath, addHeaders, uploadHttpTimeoutInMilliseconds);
 
